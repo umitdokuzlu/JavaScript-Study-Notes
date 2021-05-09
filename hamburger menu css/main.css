@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.open{
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.overlay{
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    background: #34495e;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.overlay-content a{
+    font-size: 40px;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.overlay-content a:hover{
+    color: #e74c3c;
+}
+
+.close{
+    font-size: 32px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
